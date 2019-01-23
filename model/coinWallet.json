@@ -1,0 +1,9 @@
+{
+    "__comment": "#### COINS WALLET ####",
+    "oneCent": 30,
+    "fiveCent": 10,
+    "tenCents": 10,
+    "quarterDollar": 10,
+    "halfDollar": 8,
+    "oneDollar": 2
+}

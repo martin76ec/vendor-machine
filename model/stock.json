@@ -1,0 +1,86 @@
+{
+    "__comment": "#### STOCK FILE ####",
+    "products": [
+        {
+            "product": {
+                "__comment": "## Product 1 ##",
+                "id": "P1A",
+                "name": "coca-cola",
+                "price": 1,
+                "quantity": 10
+            }
+        },
+        {
+            "product": {
+                "__comment": "## Product 2 ##",
+                "id": "P1B",
+                "name": "sprite",
+                "price": 1,
+                "quantity": 0
+            }
+        },
+        {
+            "product": {
+                "__comment": "## Product 3 ##",
+                "id": "P1C",
+                "name": "fanta",
+                "price": 1,
+                "quantity": 10
+            }
+        },
+        {
+            "product": {
+                "__comment": "## Product 4 ##",
+                "id": "P2A",
+                "name": "ruffles",
+                "price": 0.5,
+                "quantity": 0
+            }
+        },
+        {
+            "product": {
+                "__comment": "## Product 5 ##",
+                "id": "P2B",
+                "name": "doritos",
+                "price": 0.5,
+                "quantity": 10
+            }
+        },
+        {
+            "product": {
+                "__comment": "## Product 6 ##",
+                "id": "P2C",
+                "name": "cheetos",
+                "price": 0.5,
+                "quantity": 5
+            }
+        },
+        {
+            "product": {
+                "__comment": "## Product 7 ##",
+                "id": "P3A",
+                "name": "galak",
+                "price": 0.25,
+                "quantity": 10
+            }
+        },
+        {
+            "product": {
+                "__comment": "## Product 8 ##",
+                "id": "P3B",
+                "name": "tic-tacs",
+                "price": 0.4,
+                "quantity": 10
+            }
+        },
+        {
+            "product": {
+                "__comment": "## Product 9 ##",
+                "id": "P3C",
+                "name": "snickers",
+                "price": 0.75,
+                "quantity": 10
+            }
+        }
+    ]
+}

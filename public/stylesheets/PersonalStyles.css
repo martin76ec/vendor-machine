@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/12/2018, 13:42:26
+    Author     : RJ
+*/
+
+@font-face {
+    font-family: 'pixel-berry';
+    src: url('/fonts/Pixel_Berry_08_84_Ltd.Edition.TTF');
+}
+
+ blockquote {/*----------------------------------------  MODELO CON BORDE REDONDO Y ESTILOS DE LETRA PIXEL*/
+                background-color: white;
+                padding: 5px 10px;
+                margin: 20px;
+                border: PowderBlue 1px solid;
+                border-radius: 20px;
+                text-align: center;
+                font-family: "pixel-berry";
+            }
+
+            body {/*---------------------------------------- CUERPO (PRINCIPALMENTE PARA EL COLOR DE FONDO(TOMATE))*/
+                margin: 40px;
+                background-color: #C12900;
+            }
+
+
+
+
+
+
+            .colorFuera{/** ------------------------------ -------------------- COLOR DE LA MAQUINA*/
+                background-color: #1b1c1c;
+
+
+            }
+
+            .circleButton{/* ---------------------------------------- BOTONES REDONDOS (CENTAVOS)*/
+                border-radius: 50px;
+                font-size:11px;
+                line-height:32px;
+                text-transform: uppercase;
+            }
+            .circleButton:hover{/*---------------------------OPACIDAD DRAG AND DROP*/
+                opacity: 0.50;
+                -moz-opacity: 0.50;
+                filter:alpha (opacity=50);
+            }
+            .circleButton a{ /*--------------------CLASE A PARA BOTONES REDONDOS*/
+                color:#fff;
+                text-decoration:none;
+                padding:5px 5px 5px 0;
+            }
+
+
+
+            .squarButton{/* ---------------------------------------- BOTONES CUADRADOS (DOLARES)*/
+
+                margin: 5px;
+
+
+                font-size:11px;
+                line-height:32px;
+                text-transform: uppercase;
+            }
+            .squarButton:hover{
+                opacity: 0.50;
+                -moz-opacity: .50;
+                filter:alpha (opacity=50);
+            }
+
+
+
+
+            input{/*  ---------------------------------------------Estilos del Input */
+                width:30px; 
+                height:30px; 
+                border: white 1px solid;
+                margin: 3px;
+                text-align: center;
+
+
+            }
+
+            #Div1dollar,#Div5dollar{  /*---------------------------LOS DIVS DE LOS BILLETES DE DOLARES (PARTIDA)*/
+
+                border: 1px solid black;
+            }
+            #Div1dollarcent,#Div50cent,#Div25cent,#Div10cent,#Div5cent,#Div1cent{/*---------------------------LOS DIVS DE LOSDE LAS MONEDAS (PARTIDA) */
+                border: 1px solid black;
+
+                border-radius: 50px;
+                margin: 12px;
+
+
+            }
+            #div2,#div3 {/*---------------------------cINSERTAR LAS MONEDAS */
+
+                border: 1px solid black;
+                background-color: white;
+
+            }
+
